@@ -4,15 +4,17 @@ This library is for reusable boilerplate just to get basic functions down
 
 ## Installing
 
-The npm package is scoped to @jstraney/jas-middleware but I haven't published to npm yet you can clone from github if you want it. I wouldn't use this exact repo for official business but do implement similar patterns in practice. `requireAuth` is a stub and really shouldn't be used in production.
+The npm package is scoped to @jstraney/jas-middleware but I haven't published to npm yet. You can clone from github if you want to try it out.
 
-```
+I wouldn't use this exact repo for official business but do implement similar patterns in practice. `requireAuth` is a stub and really shouldn't be used in production.
+
+```sh
 npm i -S git+https://github.com/jstraney/jas-middleware.git
 ```
 
 ## Usage
 
-```
+```js
 const {
   requireAuth,
   useArgs,
