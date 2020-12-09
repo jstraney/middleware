@@ -1,0 +1,27 @@
+{
+  "name": "@jstraney/middleware",
+  "version": "1.0.0",
+  "description": "My own middleware functions I like to use",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jstraney/middleware.git"
+  },
+  "keywords": [
+    "middleware",
+    "express",
+    "nodejs"
+  ],
+  "author": "Jeff Straney (jstraney)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstraney/middleware/issues"
+  },
+  "homepage": "https://github.com/jstraney/middleware#readme"
+}
