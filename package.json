@@ -1,7 +1,7 @@
 {
-  "name": "@jstraney/middleware",
+  "name": "@jstraney/jas-middleware",
   "version": "1.0.0",
-  "description": "My own middleware functions I like to use",
+  "description": "My own middleware patterns I like to use",
   "main": "index.js",
   "directories": {
     "lib": "lib"
