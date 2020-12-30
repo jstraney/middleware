@@ -1,5 +1,5 @@
 {
-  "name": "@jstraney/jas-middleware",
+  "name": "@jstraney/middleware",
   "version": "1.0.0",
   "description": "My own middleware patterns I like to use",
   "main": "index.js",
