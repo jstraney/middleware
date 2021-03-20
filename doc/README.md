@@ -52,7 +52,7 @@ router.get('/blog-post/:id', [
 
 ### requireAuth
 
-Checks for user object in session. Assumes some kind of express-connect middleware is used. Again, this is a stub and is just for testing/basic use cases (single user app)
+Require auth uses an RSA signed JWT. When creating an instance of the middleware, you pass in options including the text of the public key PEM, and any other JWT claims (like subject, scope) etc.
 
 ### useArgs
 
